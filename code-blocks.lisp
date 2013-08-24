@@ -81,7 +81,7 @@
                             (colorize::html-colorization clang content))
                           content)))
       (3bmd::padded (2 stream)
-        (format stream "<pre><code>")
+        (format stream "<pre><code class=\"codeblock\">")
         (format stream "~a" formatted)
         (format stream "</code></pre>")))))
 
